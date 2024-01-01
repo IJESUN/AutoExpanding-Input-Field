@@ -1,0 +1,22 @@
+textarea{
+    background-color: rgb(235, 235, 243);
+    color: rgb(94, 107, 21);
+    padding: 1em;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border: 1px solid transparent;
+    width: 50%;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.2s ease-in-out;
+}
+
+textarea:hover{
+    cursor: pointer;
+}
+
+textarea:focus{
+    cursor: text;
+}
